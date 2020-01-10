@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-weight: 300;
+    background: rgb(214, 223, 241);
+}
+.container{
+    width: 90%;
+    margin: auto;
+    background: blanchedalmond;
+}
+header{
+    background-image: url('close.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: blanchedalmond;
+
+}
+
+.temp{
+    margin: 20px;
+    padding: 2em;
+    border: 1px black solid;
+    border-radius: 4px;
+}
+
+.temp h1{
+    padding: 10px 0;
+    font-size: 3em;
+}
+.temp p{
+    padding: 10px 0;
+    font-size: 1.3em;
+}
+.temp button{
+    margin: 10px 0;
+    padding: 6px 6px;
+    border: 1px black solid;
+    border-radius: 4px;
+    color: black;
+    background-color: blanchedalmond;
+}
+
+.btn2 button {
+    margin: 20px;
+    padding: 1em 2em;
+    border: 1px black solid;
+    border-radius: 4px;
+    color: black;
+    background-color: blanchedalmond;
+}
